@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rojo"
+        android:id="@+id/tvRojo"
+        android:background="@color/rojo"
+        android:textColor="@color/negro"
+        android:padding="8dp"
+        android:layout_alignLeft="@id/tvNaranja"
+        android:layout_above="@id/tvNaranja"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/naranja"
+        android:id="@+id/tvNaranja"
+        android:background="@color/naranja"
+        android:textColor="@color/negro"
+        android:padding="8dp"
+        android:layout_alignLeft="@id/tvAmarillo"
+        android:layout_above="@id/tvAmarillo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amarillo"
+        android:id="@+id/tvAmarillo"
+        android:background="@color/amarillo"
+        android:textColor="@color/negro"
+        android:padding="8dp"
+        android:layout_alignLeft="@id/tvVerde"
+        android:layout_above="@id/tvVerde" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verde"
+        android:id="@+id/tvVerde"
+        android:background="@color/verde"
+        android:textColor="@color/negro"
+        android:layout_centerInParent="true"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/azul"
+        android:id="@+id/tvAzul"
+        android:background="@color/azul"
+        android:textColor="@color/blanco"
+        android:padding="8dp"
+        android:layout_alignLeft="@id/tvVerde"
+        android:layout_below="@id/tvVerde"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/indigo"
+        android:id="@+id/tvIndigo"
+        android:background="@color/indigo"
+        android:textColor="@color/blanco"
+        android:padding="8dp"
+        android:layout_alignLeft="@id/tvAzul"
+        android:layout_below="@id/tvAzul"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/violeta"
+        android:id="@+id/tvVioleta"
+        android:background="@color/violeta"
+        android:textColor="@color/negro"
+        android:padding="8dp"
+        android:layout_alignLeft="@id/tvIndigo"
+        android:layout_below="@id/tvIndigo"/>
+
+</RelativeLayout>
